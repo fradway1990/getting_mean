@@ -1,0 +1,5 @@
+mixin outputRating(rating)
+  - for(var x = 0; x < rating ;x++)
+    span.glyphicon.glyphicon-star
+  - for(var x = rating; x < 5; x++ )
+    span.glyphicon.glyphicon-star-empty
